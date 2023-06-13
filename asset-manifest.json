@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https//RonneyMB.github.io/TaskApp/static/css/main.d2a87d0b.css",
+    "main.js": "/https//RonneyMB.github.io/TaskApp/static/js/main.0cbc3d2a.js",
+    "static/media/headerImagePremade.jpg": "/https//RonneyMB.github.io/TaskApp/static/media/headerImagePremade.dcf5066b3348b9d2fb4f.jpg",
+    "static/media/Favicon.svg": "/https//RonneyMB.github.io/TaskApp/static/media/Favicon.1e9adf48e5319747b32d9bf2507e985a.svg",
+    "index.html": "/https//RonneyMB.github.io/TaskApp/index.html",
+    "main.d2a87d0b.css.map": "/https//RonneyMB.github.io/TaskApp/static/css/main.d2a87d0b.css.map",
+    "main.0cbc3d2a.js.map": "/https//RonneyMB.github.io/TaskApp/static/js/main.0cbc3d2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2a87d0b.css",
+    "static/js/main.0cbc3d2a.js"
+  ]
+}
