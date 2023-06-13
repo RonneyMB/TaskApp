@@ -1,0 +1,49 @@
+ .Item {
+    background-color: #474747;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.iconS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointerm;
+} 
+
+.Item-p {
+    margin: 24px 0px 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.item--complete {
+    background-color: #ff984d;
+    color: #1e1e1e;
+}
+
+.iconSChecked:hover {
+    cursor: pointer;
+    color: #82E0AA;
+}
+.Icon-delete:hover {
+    cursor: pointer;
+    color: #CD5C5C;
+}
+
+@media screen and (max-width: 700px) {
+    .Item {
+        width: 400px;
+        height: 120px;
+        border-radius: 20px;
+    }
+    .Item-p {
+        width: calc(100% - 100px);
+    }
+  }

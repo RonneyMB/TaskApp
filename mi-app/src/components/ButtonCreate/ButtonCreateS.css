@@ -1,0 +1,30 @@
+.buttonPosition {
+  position: fixed;
+  width: 62px;
+  height: 62px;
+  bottom: 40px;
+  right: 60px;
+  cursor: pointer;
+}
+
+.buttonStyle {
+  background-color: #47816b;
+  border: none;
+  border-radius: 50%;
+  color: #ffff;
+  font-size: 44px;
+}
+
+.buttonStyle:hover {
+    cursor: pointer;
+    background-color: #6fceaa;
+}
+
+@media screen and (max-width: 700px) {
+  .buttonPosition {
+    margin-right: 0;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

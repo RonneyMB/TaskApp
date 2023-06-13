@@ -1,0 +1,72 @@
+form {
+    width: 90%;
+    max-width: 340px;
+    background-color: #404040;
+    padding: 33px 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffff;
+}
+
+textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    width: 88%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+}
+
+.buttonS {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.button {
+    cursor: pointer;
+    margin: 0px 10px 0px 10px;
+    display: inline-block;
+    font-size: 16px;
+    color: #ffff;
+    font-weight: 400;
+    width: 148px;
+    height: 48px;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+}
+
+.add-active {
+    background-color: #ff984d;
+    font-weight: bold;
+}
+
+.cancel-active {
+    background-color: transparent;
+    border: solid 2px;
+}
+
+.add-active:hover {
+    background-color: #6fceaa;
+    font-weight: bold;
+}
+
+.cancel-active:hover {
+    background-color: transparent;
+    border: solid 2px;
+    border-color: #ff984d;
+    color: #ff984d;
+}

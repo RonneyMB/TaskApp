@@ -1,0 +1,21 @@
+.listS {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   font-weight: 400;
+   padding-bottom: 40px;
+}
+.listS span {
+   color: #ff984d;
+   font-weight: 700;
+   margin: 0 6px;
+}
+
+@media screen and (max-width: 700px) {
+    .Item {
+        width: 380px;
+    }
+  }.listS {
+   font-size: 25px;
+}

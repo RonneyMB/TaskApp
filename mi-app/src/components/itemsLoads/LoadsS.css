@@ -1,0 +1,20 @@
+.Statusload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.EmptyS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FaceS {
+    color: #ff984d;
+    height: 5em;
+    width: 5em;
+    padding: 30px;
+}
